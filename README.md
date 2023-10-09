@@ -87,5 +87,23 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     summary = models.TextField(blank=True, null=True)
     featured = models.BooleanField(default=False) # null=True, default=True
-
 ```
+
+# Running in a Virtual Environment
+
+## Create a Virtual Environment
+
+- Open command prompt and type `python -m venv <venv_name>` to create a virtual environment
+
+## Activate a Virtual Environment
+
+- Open command prompt and type `<venv_name>\Scripts\activate` to activate the virtual environment
+
+## Deactivate a Virtual Environment
+
+- Open command prompt and type `deactivate` to deactivate the virtual environment
+
+## Install Django in a Virtual Environment
+
+- Open command prompt and type `pip install django` to install Django in the virtual environment
+s
